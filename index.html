@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Canvas paint</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <canvas id='canvas' width="800px" height="800px">Ваш браузер устарел!</canvas>
+        <div id="toolbar">
+            <h1>Tools</h1>
+          <input type="color" id="palette">
+          <label for="lineWidth">Width</label>
+          <input id="thickness_button" name='lineWidth' type="range" value="10" min="1" max="50">
+          <div class="clearAll" id="clearAll_button">Clear</div>
+        </div>
+    </div>
+    <script src="app.js"></script> 
+</body>
+</html>
